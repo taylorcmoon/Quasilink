@@ -1,0 +1,46 @@
+Notebook[{Cell[
+BoxData[PaneBox[TagBox[GridBox[{{ItemBox[PaneBox[TagBox[GridBox[{{RowBox[
+{"Message","[",RowBox[{StyleBox[RowBox[{"Set","::","write"}],"MessageName"],",","Dot",",",RowBox[
+{"Protocol",".","self"}]}],"]"}]},{RowBox[{RowBox[{"Protocol",".","self"}],"=",RowBox[
+{RowBox[{"context",".","super",".","\[EmptyUpTriangle]"}],"||",RowBox[{"Protocol",".","prototype"}]}]}]},{RowBox[
+{"Quasilink","[",RowBox[{RowBox[{"Protocol",".","self"}],"=",RowBox[{RowBox[{"context",".","super",".","\[EmptyUpTriangle]"}],"||",RowBox[
+{"Protocol",".","prototype"}]}]}],"]"}]},{RowBox[{"{",RowBox[{"Quasilink","[",RowBox[
+{RowBox[{"Protocol",".","self"}],"=",RowBox[{RowBox[{"context",".","super",".","\[EmptyUpTriangle]"}],"||",RowBox[
+{"Protocol",".","prototype"}]}]}],"]"}],"}"}]},{RowBox[{"foreach"," ","\[EmptyUpTriangle]"," ",RowBox[
+{"{",RowBox[{"Quasilink","[",RowBox[{RowBox[{"Protocol",".","self"}],"=",RowBox[{RowBox[
+{"context",".","super",".","\[EmptyUpTriangle]"}],"||",RowBox[{"Protocol",".","prototype"}]}]}],"]"}],"}"}]}]},{RowBox[
+{"$UserPre","[",RowBox[{"foreach"," ","\[EmptyUpTriangle]"," ",RowBox[{"{",RowBox[
+{"Quasilink","[",RowBox[{RowBox[{"Protocol",".","self"}],"=",RowBox[{RowBox[{"context",".","super",".","\[EmptyUpTriangle]"}],"||",RowBox[
+{"Protocol",".","prototype"}]}]}],"]"}],"}"}]}],"]"}]}},GridBoxAlignment -> {"Columns" -> {{Left}}},
+AllowScriptLevelChange -> False,BaseStyle -> {"MessageStack",ScriptLevel -> 0},DefaultBaseStyle -> "Column",
+GridBoxDividers -> {"Columns" -> {False,{True},False},"Rows" -> {False,{True},False}},
+GridBoxItemSize -> {"Columns" -> {{Fit}},"Rows" -> {{Fit}}},GridBoxSpacings -> {"Columns" -> {{Automatic}},"Rows" -> {{1.5`}}},
+FrameStyle -> GrayLevel[0.749`]],"Column"],FrameMargins -> 10,ImageSize -> Dynamic[
+CurrentValue[$FrontEnd,{"PrivateFrontEndOptions","InterfaceSettings","MessageStack","ImageSize"},
+{600,300}]],AppearanceElements -> {"ResizeArea"},Scrollbars -> {False,Automatic}],
+Background -> GrayLevel[1],StripOnInput -> False]},{PaneBox[TagBox[GridBox[{{ButtonBox[
+DynamicBox[FEPrivate`FrontEndResource["FEStrings","stackCopyAllButtonLabel"]],RuleDelayed[
+ButtonFunction,MathLink`CallFrontEnd[FrontEnd`CopyToClipboard["{HoldForm[Message[Set::write, HoldForm[Dot], HoldForm[Protocol . self]]], HoldForm[Protocol . self = context . super . \[EmptyUpTriangle] || Protocol . prototype], HoldForm[Quasilink[Protocol . self = context . super . \[EmptyUpTriangle] || Protocol . prototype]], HoldForm[{Quasilink[Protocol . self = context . super . \[EmptyUpTriangle] || Protocol . prototype]}], HoldForm[foreach*\[EmptyUpTriangle]*{Quasilink[Protocol . self = context . super . \[EmptyUpTriangle] || Protocol . prototype]}], HoldForm[$UserPre[foreach*\[EmptyUpTriangle]*{Quasilink[Protocol . self = context . super . \[EmptyUpTriangle] || Protocol . prototype]}]]}"]]],
+BaseStyle -> {},DefaultBaseStyle -> {},Method -> "Queued",Tooltip -> DynamicBox[FEPrivate`FrontEndResource[
+"FEStrings","stackCopyAllButtonTooltip"]],Appearance -> Automatic,Evaluator -> Automatic]}},
+GridBoxAlignment -> {"Columns" -> {{Center}},"Rows" -> {{Center}}},AutoDelete -> False,
+GridBoxItemSize -> {"Columns" -> {{Automatic}},"Rows" -> {{Automatic}}},BaseStyle -> {"DialogStyle","MessageMenu"}],
+"Grid"],ImageSize -> {Automatic,38},Alignment -> {Center,Center},FrameMargins -> {{10,10},{0,0}}]}},
+GridBoxAlignment -> {"Columns" -> {{Right}}},DefaultBaseStyle -> "Column",GridBoxDividers -> {"Columns" -> {False,{True},False},"Rows" -> {False,{True},False}},
+GridBoxItemSize -> {"Columns" -> {{Automatic}},"Rows" -> {{Automatic}}},FrameStyle -> GrayLevel[
+0.85`]],"Column"],ImageSize -> Dynamic[{Part[CurrentValue[$FrontEnd,{"PrivateFrontEndOptions","InterfaceSettings","MessageStack","ImageSize"},
+{600,300}],1],Automatic},None],FrameMargins -> 0,AppearanceElements -> {},Scrollbars -> False]],
+"Output",FontFamily -> CurrentValue["PanelFontFamily"],LineSpacing -> {1.25`,0},PageBreakWithin -> False,
+ScriptMinSize -> 9,AutoItalicWords -> {},CellMargins -> {{8,8},{8,8}},FormatType -> InputForm,
+PageBreakAbove -> True,ShowAutoStyles -> True,FontSize -> CurrentValue["PanelFontSize"],
+CellBracketOptions -> {"Color" -> RGBColor[0.269993`,0.308507`,0.6`]},CellHorizontalScrolling -> True,
+ExpressionUUID -> "13b59e38-1838-4006-81a7-ab1388fefbb8",ShowStringCharacters -> False]},
+StyleDefinitions -> "Dialog.nb",WindowTitle -> "Stack Trace for Set::write",WindowFrame -> "ModelessDialog",
+WindowSize -> All,FrontEndVersion -> "14.3 for Wolfram Cloud 1.75 (April 10, 2026)",
+NotebookEventActions -> {RuleDelayed["ReturnKeyDown",FE`Evaluate[FEPrivate`FindAndClickDefaultButton[]]],RuleDelayed[
+{"MenuCommand","EvaluateCells"},FE`Evaluate[FEPrivate`FindAndClickDefaultButton[]]],RuleDelayed[
+{"MenuCommand","HandleShiftReturn"},FE`Evaluate[FEPrivate`FindAndClickDefaultButton[]]],RuleDelayed[
+{"MenuCommand","EvaluateNextCell"},FE`Evaluate[FEPrivate`FindAndClickDefaultButton[]]],RuleDelayed[
+"EscapeKeyDown",CompoundExpression[FE`Evaluate[FEPrivate`FindAndClickCancelButton[]],
+DialogReturn[$Canceled]]],RuleDelayed["WindowClose",CompoundExpression[FE`Evaluate[
+FEPrivate`FindAndClickCancelButton[]],DialogReturn[$Canceled]]]},CellContext -> "Global`"]
