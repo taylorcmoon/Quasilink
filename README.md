@@ -56,8 +56,8 @@ NetTrain
 2. Train the generative model (update the script with your own ML model).
 
 ### Deployment
-- Deploy the React frontend using [Vercel](https://vercel.com) or [Netlify](https://www.netlify.com).
-- Deploy backend and ML pipelines using [Heroku](https://heroku.com) or [AWS](https://aws.amazon.com/).
+run: | 
+   -cloud_autonoma_labs, google_cloud
 
 ---
 
