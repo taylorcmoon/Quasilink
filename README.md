@@ -1,26 +1,25 @@
-# Quasilink
+# ExplicitIOM
 
-Quasilink is a generative Tumblr-inspired feed that pulls related images, processes them for machine learning, and generates transcendental image compositions. Built with React, Python, and ML tools.
+Quasilink is a generative feed that pulls related images, processes them for machine learning, and generates transcendental transformations to deliver intended compositions. compositions can be translated into class objects. subroutines are compiled and translated into OOP code that alligns with intent.
 
 ## Features
-- Fetches posts from your Tumblr account using the Tumblr API.
-- Preprocesses image data for training machine learning (GAN-based) models.
-- React frontend to display a grid-style image feed.
+- React frontend to display and edit final images
 
 ## Structure
 ```
 quasilink/
 │
 ├── backend/                 # Backend for data fetching and preprocessing
-│   └── tumblr_api_fetch.py  # Fetch data from Tumblr
+│   └── fetch.py  # Fetch data from Tumblr
 │
-├── frontend/                # React frontend for generative feed
+├── frontend/                # React frontend for generative elements
 │   └── src/
-│       ├── ImageFeed.js     # React component for the feed
+│       ├── ImageFeed .js     # React component for the feed
 │       └── ImageFeed.css    # CSS for feed layout
 │
 ├── ml/                      # ML scripts (preprocessing and training)
-│   └── preprocess_and_train.py
+│   └── NetTrain[.]
+NetTrain
 │
 └── README.md                # Project setup instructions
 ```
@@ -52,7 +51,7 @@ quasilink/
 ### Machine Learning
 1. Preprocess image data:
    ```bash
-   python ml/preprocess_and_train.py --preprocess
+   python ml/train.py --preprocess
    ```
 2. Train the generative model (update the script with your own ML model).
 
