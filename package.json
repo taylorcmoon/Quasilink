@@ -1,0 +1,15 @@
+{
+  "name": "voker",
+  "version": "0.1.0",
+  "description": "AI agent analytics and extrapolation platform.",
+  "main": "index.js",
+  "author": "Taylor Moon <therealtaylormoon@icloud.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/taylorcmoon/voker"
+  },
+  "dependencies": {
+    "@voker/voker": "^0.0.10"
+  }
+}
