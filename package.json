@@ -1,15 +1,25 @@
 {
-  "name": "voker",
+  "name": "quasilink",
   "version": "0.1.0",
-  "description": "AI agent analytics and extrapolation platform.",
-  "main": "index.js",
+  "description": "Intelligence platform powered by Wolfram.",
+  "main": "src/index.ts",
+  "scripts": {
+    "start:xerve": "ts-node src/index.ts"
+  },
   "author": "Taylor Moon <therealtaylormoon@icloud.com>",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/taylorcmoon/voker"
+    "url": "https://github.com/taylorcmoon/quasilink"
   },
   "dependencies": {
     "@voker/voker": "^0.0.10"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.6",
+    "express": "^5.2.1",
+    "firebase-admin": "^13.10.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^6.0.3"
   }
 }

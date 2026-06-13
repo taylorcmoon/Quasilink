@@ -1,17 +1,18 @@
-# Voker
+# Quasilink
 
-AI agent analytics and extrapolation platform.
+Quasilink is an advanced intelligence platform powered by Wolfram technology.
 
-Voker is designed to track intents, corrections, and resolutions in LLM interactions, providing deep insights into agent behavior and performance.
+## Overview
+Quasilink leverages the computational power of Wolfram to provide deep insights and analytical capabilities. It is designed to bridge complex data structures with intuitive intelligence.
 
 ## Features
-- **Intent Tracking**: Understand what users are trying to achieve.
-- **Correction Analysis**: Identify where the agent fails and how users correct it.
-- **Resolution Metrics**: Track the success rate of agent tasks.
+- **Wolfram Integration**: Core computational logic powered by Wolfram.
+- **Intelligence Linking**: Connecting disparate data points into a cohesive knowledge graph.
+- **Advanced Analytics**: High-fidelity processing of information.
 
 ## Credits
-- **Lead Developer**: [Taylor Moon](https://github.com/taylorcmoon)
-- **Co-developed with**: Gemini CLI (Google)
+- **Founder & Lead Developer**: [Taylor Moon](https://github.com/taylorcmoon)
+- **Powered by**: Wolfram
 
 ## License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
