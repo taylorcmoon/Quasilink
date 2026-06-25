@@ -1,64 +1,26 @@
-# ExplicitIOM
+# Quasilink Technical Documentation
 
-Quasilink is a generative feed that pulls related images, processes them for machine learning, and generates transcendental transformations to deliver intended compositions. compositions can be translated into class objects. subroutines are compiled and translated into OOP code that alligns with intent.
+## Overview
+Quasilink is an advanced intelligence platform powered by Wolfram technology. It focuses on high-fidelity modeling and analysis of complex systems, leveraging symbolic computation to bridge substrate-independent intelligence with real-world applications.
 
-## Features
-- React frontend to display and edit final images
+## Architecture
+Quasilink is designed to operate directly from the "phase space" of its substrate, enabling it to load and evolve states without external dependencies.
 
-## Structure
-```
-quasilink/
-│
-├── backend/                 # Backend for data fetching and preprocessing
-│   └── fetch.py  # Fetch data from Tumblr
-│
-├── frontend/                # React frontend for generative elements
-│   └── src/
-│       ├── ImageFeed .js     # React component for the feed
-│       └── ImageFeed.css    # CSS for feed layout
-│
-├── ml/                      # ML scripts (preprocessing and training)
-│   └── NetTrain[.]
-NetTrain
-│
-└── README.md                # Project setup instructions
-```
+### Core Primitives
+- **Phase Space**: The multidimensional space representing all possible states of the system substrate.
+- **Substrate**: The underlying computational medium (e.g., Wolfram hypergraphs or multi-way systems).
+- **Fractal Extrapolator**: A predictive engine utilizing Taylor Series-based algorithms and symbolic calculus to predict system trajectories and agent behaviors within the phase space.
 
-## Setup Instructions
+## Backend Implementation
+The backend integrates Wolfram's computational engine to:
+1. **Model Dynamics**: Simulate system evolution using multi-way systems.
+2. **Perform Extrapolation**: Execute the Fractal Extrapolator to forecast state transitions.
+3. **Manage Substrate**: Handle the persistence and initialization of the system's phase space.
 
-### Backend
-1. Install Python dependencies:
-   ```bash
-   pip install requests pillow torch torchvision
-   ```
-2. Replace `YOUR_API_KEY` in `tumblr_api_fetch.py` with your Tumblr API key.
-3. Run the script to fetch and save images:
-   ```bash
-   python backend/tumblr_api_fetch.py
-   ```
+## Technical Stack
+- **Computational Engine**: Wolfram Engine / Wolfram Language.
+- **Backend Environment**: Node.js / TypeScript (Primary Integration).
+- **Data Connectivity**: Firebase Data Connect / Java & Kotlin.
 
-### Frontend
-1. Navigate to the `frontend` folder and create a new React app:
-   ```bash
-   npx create-react-app .
-   ```
-2. Replace the `src` directory contents with `frontend/src` files provided.
-3. Start the development server:
-   ```bash
-   npm start
-   ```
-
-### Machine Learning
-1. Preprocess image data:
-   ```bash
-   python ml/train.py --preprocess
-   ```
-2. Train the generative model (update the script with your own ML model).
-
-### Deployment
-run: | 
-   -cloud_autonoma_labs, google_cloud
-
----
-
-Happy Generating!
+## Development Philosophy
+Quasilink seeks to discover intelligence through minimal axioms, utilizing the computational universe to extrapolate meaning from raw substrate dynamics.
